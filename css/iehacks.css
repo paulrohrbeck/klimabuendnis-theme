@@ -1,0 +1,24 @@
+body {
+o\verflow:visible;
+position:relative;
+height:1%;
+} 
+
+* html body { 
+position:static; 
+}
+
+#wrapper { 
+position:relative;
+}
+* html body a,
+* html body a:hover { background-color: transparent; }
+
+* html body * { overflow:visible; }
+* html iframe, * html frame { overflow:auto; }
+* html frameset { overflow:hidden; }
+
+* html textarea { overflow:scroll; overflow-x: hidden; }
+* html input { overflow: hidden; }
+
+#main{margin-top:50px;}
